@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../foundation-6.5.1-complete/css/foundation.min.css">
+    <script src="../foundation-6.5.1-complete/js/vendor/foundation.min.js"></script>
+    <script src="../foundation-6.5.1-complete/js/vendor/jquery.js"></script>
+    <title>Mary's Foundation</title>  
+</head>
+
+<body class="grid-container">
+
+        <div class = "top-bar">
+                <div class = "top-bar-left">
+                   <ul class = "dropdown menu" data-dropdown-menu>
+                      <li class = "menu-text">EA Games</li>
+                      <li><a href = "#">Home</a></li>
+                      <li><a href = "#">About Us</a></li>
+                    <!--
+                      <li class = "has-submenu">
+                         <a href = "#">Services</a>
+                         <ul class = "submenu menu vertical" data-submenu>
+                            <li><a href = "#">Service1</a></li>
+                            <li><a href = "#">Service2</a></li>
+                            <li><a href = "#">Service3</a></li>
+                         </ul>
+                      </li>
+                    -->       
+                      <li><a href = "#">Contact Us</a></li>
+                   </ul>
+                </div>
+                <div class = "top-bar-right">
+                   <ul class = "menu">
+                      <li><input type = "search" placeholder = "Search Here"></li>
+                      <li><button type = "button-success" class = "button">Search</button></li>
+                   </ul>
+                </div>
+             </div>
+       
+             <script>
+                $(document).ready(function() {
+                   $(document).foundation();
+                })
+             </script>
+    <h3>East Africa Games</h3>
+    <div>
+     <p class="text-justify">Go placidly amid the noise and the haste, and remember what peace there may be in silence. 
+         As far as possible, without surrender, be on good terms with all persons. 
+         Speak your truth quietly and clearly; and listen to others, even to the dull and the ignorant; they too have their story. 
+         Avoid loud and aggressive persons; they are vexatious to the spirit. 
+         If you compare yourself with others, you may become vain or bitter, for always there will be greater and lesser persons than yourself. </p>
+    </div>
+    <form>
+        <fieldset>
+            <legend>Register Here</legend>
+            <div class="row">
+              <div class="large-12 columns">
+                <label>Name of Company
+                  <input type="text" placeholder="e.g ABC Company" />
+                </label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="large-4 columns">
+                <label>Industry
+                  <input type="text" placeholder="e.g Manufacturing" />
+                </label>
+              </div>
+              <div class="large-4 columns">
+                <label>Address
+                  <input type="text" placeholder="e.g 113 Loitoktok Road" />
+                </label>
+              </div>
+              <div class="large-4 columns">
+                <div class="row collapse">
+                  <label>Contact Person</label>
+                  <div class="small-9 columns">
+                    <input type="text" placeholder="e.g Jane Doe" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="large-12 columns">
+                <label>City
+                  <select>
+                    <option value="Nairobi">Nairobi</option>
+                    <option value="Mombasa">Mombasa</option>
+                    <option value="Kisumu">Kisumu</option>
+                    <option value="Eldoret">Eldoret</option>
+                  </select>
+                </label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="large-6 columns">
+                <label>Choose Your Team</label>
+                <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Red</label>
+                <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Blue</label>
+              </div>
+              <div class="large-6 columns">
+                <label>Type of games</label>
+                <input id="checkbox1" type="checkbox"><label for="checkbox1">Indoor</label>
+                <input id="checkbox2" type="checkbox"><label for="checkbox2">Outdoor</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="large-12 columns">
+                <label>Additional Information
+                  <textarea placeholder="add any information you'd like us to know"></textarea>
+                </label>
+              </div>
+            </div>
+            </fieldset>
+          </form>
+          <a href="#" arial-label="submit form" class="button expanded">Submit</a>
+
+    <script>
+            $(document).ready(function() {
+               $(document).foundation();
+            })
+         </script>
+</body>
+</html>
